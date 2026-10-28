@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/separation-of-duties-for-ai-work/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735120 (this page is a chapter of the system's report)  
 Systems: [AgentOS](https://github.com/coreyjames-ai/agentos) · [Agent Swarm](https://github.com/coreyjames-ai/agent-swarm)  
 Technologies: [Evidence-gated acceptance](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/evidence-gated-acceptance) · [Governed AI-assisted software engineering](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/governed-ai-assisted-software-engineering) · [Independent verification and adversarial review](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/independent-verification-and-adversarial-review) · [JSON Schema](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/json-schema) · [Model Context Protocol (MCP)](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/model-context-protocol-mcp) · [Multi-agent system architecture and orchestration](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/multi-agent-system-architecture-and-orchestration) · [PostgreSQL](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/postgresql) · [State-machine design for multi-agent workflows](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/state-machine-design-for-multi-agent-workflows) · [tmux](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/tmux)  
 Skills: [separation of duties for AI work](https://github.com/coreyjames-ai/portfolio/tree/main/skills/separation-of-duties-for-ai-work) · [evidence-gated acceptance](https://github.com/coreyjames-ai/portfolio/tree/main/skills/evidence-gated-acceptance) · [multi-agent governance](https://github.com/coreyjames-ai/portfolio/tree/main/skills/multi-agent-governance) · [agent orchestration](https://github.com/coreyjames-ai/portfolio/tree/main/skills/agent-orchestration)  
@@ -89,7 +90,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Separation of duties for AI work." coreyjames.ai, 2026. https://coreyjames.ai/stories/separation-of-duties-for-ai-work/
+Corey James. "Separation of duties for AI work." coreyjames.ai, 2026. https://coreyjames.ai/stories/separation-of-duties-for-ai-work/ In: the AgentOS technical report, doi:10.5281/zenodo.23735120.
 
 ```bibtex
 @misc{coreyjames-separation-of-duties-for-ai-work,
@@ -97,7 +98,8 @@ Corey James. "Separation of duties for AI work." coreyjames.ai, 2026. https://co
   title = {Separation of duties for AI work},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/separation-of-duties-for-ai-work/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/agentos/tree/main/stories/separation-of-duties-for-ai-work}
+  note = {GitHub copy: https://github.com/coreyjames-ai/agentos/tree/main/stories/separation-of-duties-for-ai-work},
+  doi = {10.5281/zenodo.23735120}
 }
 ```
 

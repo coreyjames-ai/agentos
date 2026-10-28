@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/why-long-agent-runs-fail/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735120 (this page is a chapter of the system's report)  
 Systems: [AgentOS](https://github.com/coreyjames-ai/agentos)  
 Technologies: [Context engineering and persistent agent memory](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/context-engineering-and-persistent-agent-memory) · [Contract-first interface design](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/contract-first-interface-design) · [Governed AI-assisted software engineering](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/governed-ai-assisted-software-engineering) · [Idempotency, exactly-once effects and crash recovery](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/idempotency-exactly-once-effects-and-crash-recovery) · [JSON Schema](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/json-schema) · [Model Context Protocol (MCP)](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/model-context-protocol-mcp) · [Multi-agent system architecture and orchestration](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/multi-agent-system-architecture-and-orchestration) · [Policy-as-code enforcement](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/policy-as-code-enforcement) · [PostgreSQL](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/postgresql) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust) · [SQL](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/sql) · [Schema and migration discipline](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/schema-and-migration-discipline) · [State-machine design for multi-agent workflows](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/state-machine-design-for-multi-agent-workflows) · [systemd](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/systemd)  
 Skills: [agent orchestration](https://github.com/coreyjames-ai/portfolio/tree/main/skills/agent-orchestration) · [cost attribution for AI work](https://github.com/coreyjames-ai/portfolio/tree/main/skills/cost-attribution-for-ai-work) · [multi-agent governance](https://github.com/coreyjames-ai/portfolio/tree/main/skills/multi-agent-governance) · [Rust systems engineering](https://github.com/coreyjames-ai/portfolio/tree/main/skills/rust-systems-engineering)  
@@ -102,7 +103,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Why long agent runs fail." coreyjames.ai, 2026. https://coreyjames.ai/stories/why-long-agent-runs-fail/
+Corey James. "Why long agent runs fail." coreyjames.ai, 2026. https://coreyjames.ai/stories/why-long-agent-runs-fail/ In: the AgentOS technical report, doi:10.5281/zenodo.23735120.
 
 ```bibtex
 @misc{coreyjames-why-long-agent-runs-fail,
@@ -110,7 +111,8 @@ Corey James. "Why long agent runs fail." coreyjames.ai, 2026. https://coreyjames
   title = {Why long agent runs fail},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/why-long-agent-runs-fail/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/agentos/tree/main/stories/why-long-agent-runs-fail}
+  note = {GitHub copy: https://github.com/coreyjames-ai/agentos/tree/main/stories/why-long-agent-runs-fail},
+  doi = {10.5281/zenodo.23735120}
 }
 ```
 

@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/what-the-work-cost/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735120 (this page is a chapter of the system's report)  
 Systems: [AgentOS](https://github.com/coreyjames-ai/agentos) · [FAFOHive](https://github.com/coreyjames-ai/fafohive)  
 Technologies: [Budget enforcement and cost governance](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/budget-enforcement-and-cost-governance) · [Context engineering and persistent agent memory](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/context-engineering-and-persistent-agent-memory) · [Cost attribution for AI work](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cost-attribution-for-ai-work) · [PostgreSQL](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/postgresql)  
 Skills: [cost attribution for AI work](https://github.com/coreyjames-ai/portfolio/tree/main/skills/cost-attribution-for-ai-work) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology)  
@@ -71,7 +72,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "What the work cost, to the penny." coreyjames.ai, 2026. https://coreyjames.ai/stories/what-the-work-cost/
+Corey James. "What the work cost, to the penny." coreyjames.ai, 2026. https://coreyjames.ai/stories/what-the-work-cost/ In: the AgentOS technical report, doi:10.5281/zenodo.23735120.
 
 ```bibtex
 @misc{coreyjames-what-the-work-cost,
@@ -79,7 +80,8 @@ Corey James. "What the work cost, to the penny." coreyjames.ai, 2026. https://co
   title = {What the work cost, to the penny},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/what-the-work-cost/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/agentos/tree/main/stories/what-the-work-cost}
+  note = {GitHub copy: https://github.com/coreyjames-ai/agentos/tree/main/stories/what-the-work-cost},
+  doi = {10.5281/zenodo.23735120}
 }
 ```
 

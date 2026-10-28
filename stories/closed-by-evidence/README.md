@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/closed-by-evidence/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735120 (this page is a chapter of the system's report)  
 Systems: [AgentOS](https://github.com/coreyjames-ai/agentos) · [FAFO Core and Function Forge](https://github.com/coreyjames-ai/fafo-core)  
 Technologies: [Cache synchronisation and leader election](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cache-synchronisation-and-leader-election) · [Cost attribution for AI work](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/cost-attribution-for-ai-work) · [Evidence-gated API integration](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/evidence-gated-api-integration) · [Evidence-gated acceptance](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/evidence-gated-acceptance) · [Git](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/git) · [Governed AI-assisted software engineering](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/governed-ai-assisted-software-engineering) · [Independent verification and adversarial review](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/independent-verification-and-adversarial-review) · [JSON Schema](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/json-schema) · [OpenAPI](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/openapi) · [PostgreSQL](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/postgresql) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust) · [Schema-driven build-time code generation](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/schema-driven-build-time-code-generation)  
 Skills: [evidence-gated acceptance](https://github.com/coreyjames-ai/portfolio/tree/main/skills/evidence-gated-acceptance) · [Rust systems engineering](https://github.com/coreyjames-ai/portfolio/tree/main/skills/rust-systems-engineering) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology) · [tool synthesis and governed API integration](https://github.com/coreyjames-ai/portfolio/tree/main/skills/tool-synthesis-and-governed-api-integration)  
@@ -91,7 +92,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Closed by evidence." coreyjames.ai, 2026. https://coreyjames.ai/stories/closed-by-evidence/
+Corey James. "Closed by evidence." coreyjames.ai, 2026. https://coreyjames.ai/stories/closed-by-evidence/ In: the AgentOS technical report, doi:10.5281/zenodo.23735120.
 
 ```bibtex
 @misc{coreyjames-closed-by-evidence,
@@ -99,7 +100,8 @@ Corey James. "Closed by evidence." coreyjames.ai, 2026. https://coreyjames.ai/st
   title = {Closed by evidence},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/closed-by-evidence/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/agentos/tree/main/stories/closed-by-evidence}
+  note = {GitHub copy: https://github.com/coreyjames-ai/agentos/tree/main/stories/closed-by-evidence},
+  doi = {10.5281/zenodo.23735120}
 }
 ```
 
