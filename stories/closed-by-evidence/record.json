@@ -1,0 +1,46 @@
+{
+ "url": "https://coreyjames.ai/stories/closed-by-evidence/",
+ "kind": "story",
+ "title": "Closed by evidence",
+ "subtitle": "Building an API integration platform through gated AI work orders, and refusing to close it until every item had independent proof",
+ "systems": [
+  "agentos",
+  "fafo-core"
+ ],
+ "technologies": [
+  "Rust",
+  "PostgreSQL",
+  "Frontier coding models",
+  "Shell conformance suites",
+  "git",
+  "Governed AI-assisted software engineering"
+ ],
+ "stats": [
+  {
+   "value": "23 of 23",
+   "label": "close items with a current passing verdict from an independent reviewer"
+  },
+  {
+   "value": "14 days",
+   "label": "from opening the work order to closing it on evidence"
+  },
+  {
+   "value": "4,297",
+   "label": "state transitions across 13 agent seats"
+  }
+ ],
+ "lede": "I built an API integration platform, about 20,000 lines of Rust across five crates, almost entirely through AI agent teams working under my governance system. When the agents reported it done, I did not close it. I required a passing, current verdict from an independent reviewer on every close item, and the system closed the work order only when the last one was in. In the meantime the close machinery had bugs of its own, and I fixed those under the same rules. An agent that says \"done\" is making a claim, and agents make that claim early and often.",
+ "quote": "An override on day one of a governance system is the end of that system.",
+ "evidence": [
+  "Evidence-gated acceptance: an API integration platform closed only when 23 of 23 close items carried a current passing verdict from an independent reviewer, 14 days from opening to close.",
+  "Rust systems engineering: an API integration platform of about 20,000 lines of Rust across five crates, built almost entirely by AI agent teams under my governance system.",
+  "Technical leadership of agent teams: 4,297 state transitions across 13 agent seats, with builders from two model vendors and reviewers from a different family.",
+  "Re-runnable acceptance testing: a phased plan gated B0 to B9, with thirty-five acceptance artefacts, each a script and a transcript.",
+  "Governance system reliability: defects in the close path, closers that stalled and closers that ran away, fixed mid-delivery as governed work under the same rules."
+ ],
+ "problem": "governed-agents",
+ "canonical": "https://coreyjames.ai/stories/closed-by-evidence/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/agentos/tree/main/stories/closed-by-evidence"
+}

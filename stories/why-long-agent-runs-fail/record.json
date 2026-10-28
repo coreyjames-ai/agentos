@@ -1,0 +1,46 @@
+{
+ "url": "https://coreyjames.ai/stories/why-long-agent-runs-fail/",
+ "kind": "story",
+ "title": "Why long agent runs fail",
+ "subtitle": "Diagnosing agent drift as working-memory overflow, and building the control plane that holds the state instead",
+ "systems": [
+  "agentos"
+ ],
+ "technologies": [
+  "Rust",
+  "PostgreSQL",
+  "JSON Schema",
+  "Model Context Protocol (MCP)",
+  "Agent hook systems",
+  "Multi-agent system architecture",
+  "systemd"
+ ],
+ "stats": [
+  {
+   "value": "246",
+   "label": "work orders run under the control plane"
+  },
+  {
+   "value": "45,097",
+   "label": "state transitions, each with a receipt"
+  },
+  {
+   "value": "31,811",
+   "label": "metered usage entries tied to the work that spent them"
+  }
+ ],
+ "lede": "Every long autonomous coding run I launched failed the same way. Somewhere past a horizon the lead agent lost a rule, a plan step or a teammate's state, and the work quietly diverged from what had been agreed. The common response is a longer, sterner prompt. I had done that, and it bought a few more hours before the same drift returned. So I named the failure for what it is, working-memory overflow, and built the control plane that follows from that name. AgentOS moves the state out of the model and into a database, makes every job small and freshly rendered, and enforces the rules with machinery.",
+ "quote": "If drift is memory overflow, the cure is less to remember.",
+ "evidence": [
+  "Agent orchestration: a PostgreSQL work graph holds every work order, task, decision and cost, and each agent gets a small contract-bound job rendered at dispatch, across 246 work orders.",
+  "Diagnosing LLM agent drift: long-run failures named as working-memory overflow and answered by moving state out of the model, with recovery that rebuilds an agent's picture from the graph after a crash or compaction.",
+  "Multi-agent governance: 106 hook modules across eleven lifecycle events turn policy into refusals, so the lead agent cannot re-type or edit an artifact.",
+  "Control-plane and state-machine architecture: a Rust control plane of about 546,000 lines with 79 forward-only migrations, where 45,097 state transitions each left a receipt.",
+  "Cost attribution for AI work: 31,811 metered usage entries tied to the work that spent them."
+ ],
+ "problem": "governed-agents",
+ "canonical": "https://coreyjames.ai/stories/why-long-agent-runs-fail/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/agentos/tree/main/stories/why-long-agent-runs-fail"
+}

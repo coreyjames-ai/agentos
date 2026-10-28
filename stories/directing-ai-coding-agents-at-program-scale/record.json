@@ -1,0 +1,49 @@
+{
+ "url": "https://coreyjames.ai/stories/directing-ai-coding-agents-at-program-scale/",
+ "kind": "story",
+ "title": "Directing AI coding agents at program scale",
+ "subtitle": "How I run engineering programs with teams of frontier and open-source models, and why evidence, not the agents, decides",
+ "systems": [
+  "agentos",
+  "activekv",
+  "agent-swarm",
+  "fafo-core",
+  "capabilities-model",
+  "fafohive"
+ ],
+ "technologies": [
+  "Governed AI-assisted software engineering",
+  "Frontier coding models",
+  "Open-source models",
+  "git",
+  "Separation-of-duties review design"
+ ],
+ "stats": [
+  {
+   "value": "3",
+   "label": "weeks at most for a native port, bit-identical in every parity cell"
+  },
+  {
+   "value": "24",
+   "label": "performance promotions in four days, each through an intake review"
+  },
+  {
+   "value": "23 of 23",
+   "label": "close items closed under independent review"
+  }
+ ],
+ "lede": "Most of the code behind the systems on this site was written by AI coding agents. The interesting part is that the programs finished, passed independent review, and can be trusted: a native port with bit-identical output, an API platform closed under independent review, a fine-tuned model with a frozen evaluation. That happens because I run agent teams the way an architect runs an engineering organisation. I write the rules, I separate the builders from the judges, and I let evidence decide. AI coding agents are fast, tireless and confidently wrong. Left to themselves they over-claim completion, drift from the plan as context fills, and optimise for whatever metric is in front of them, including gaming a benchmark fixture.",
+ "quote": "The tests were real, and they were testing the wrong thing.",
+ "evidence": [
+  "Technical leadership of agent teams: engineering programs run with teams of frontier and open-source models under written rules, with builders and judges on different model families.",
+  "C++ and native ports with parity proof: a native port completed in at most 3 weeks, bit-identical in every parity cell.",
+  "Performance engineering governance: 24 performance promotions in four days, each through an intake review that rejects fixture-tuned gains.",
+  "Evidence-gated acceptance: an API platform held open against the agents' own done and closed on 23 of 23 close items under independent review.",
+  "Integrity of results: over a thousand passing trials voided when a native component was found registered after the code path was chosen, and the work redone with proof of binding order."
+ ],
+ "problem": "governed-agents",
+ "canonical": "https://coreyjames.ai/stories/directing-ai-coding-agents-at-program-scale/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/agentos/tree/main/stories/directing-ai-coding-agents-at-program-scale"
+}

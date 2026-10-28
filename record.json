@@ -1,0 +1,48 @@
+{
+ "url": "https://coreyjames.ai/systems/agentos/",
+ "kind": "system",
+ "title": "AgentOS",
+ "subtitle": "A governed work-order control plane for teams of AI engineering agents",
+ "systems": [],
+ "technologies": [
+  "Rust",
+  "PostgreSQL",
+  "JSON Schema",
+  "Model Context Protocol (MCP)",
+  "Agent hook systems",
+  "Multi-agent system architecture",
+  "systemd"
+ ],
+ "stats": [
+  {
+   "value": "246",
+   "label": "work orders governed, including the programs that built most of this site"
+  },
+  {
+   "value": "106",
+   "label": "hook modules across eleven lifecycle events, each a refusal"
+  },
+  {
+   "value": "31,811",
+   "label": "metered usage entries tied to the work that spent them"
+  },
+  {
+   "value": "< 5 s",
+   "label": "for another worker to resume a failed one from the graph"
+  }
+ ],
+ "lede": "My long autonomous coding runs all failed the same way. The lead agent had to hold the operating procedure, the plan, every teammate's state and every piece of evidence in its context, and past some horizon it dropped one of them. The work then diverged quietly. I stopped treating that as a prompting problem. It is working-memory overflow, and the cure is to take the memory out of the model. AgentOS is the control plane I built on that diagnosis. The authoritative state of every engineering program lives in a PostgreSQL work graph. Each agent receives a small, freshly rendered, contract-bound job. Policy is enforced by machinery that refuses forbidden actions.",
+ "quote": "I forbade the most capable agent in the system from touching deliverables.",
+ "evidence": [
+  "Agent orchestration: a PostgreSQL work graph as the only source of truth for teams of AI coding agents, each given a small contract-bound job rendered at dispatch, across 246 work orders.",
+  "Multi-agent governance: policy turned into refusals by 106 hook modules across eleven lifecycle events on the coding agents' own command-line tools, so a lead agent cannot edit an artifact.",
+  "Separation of duties for AI work: builders, quality reviewers, a gatekeeper and an adversarial reviewer on a different vendor's model in distinct seats; an API platform closed all 23 of its close items under independent review.",
+  "Cost attribution for AI work: 31,811 metered usage entries tied to the work that spent them, and in one program 3.197 billion tokens attributed to the penny across 11,193 priced model calls.",
+  "Control-plane and state-machine architecture: a 546,000-line Rust control plane whose transition runtime gives the same state from the same inputs; a failed worker is resumed from the graph in under 5 s.",
+  "Event-driven agent systems: per-seat mailboxes scoped to the team, with signed webhooks from payments, email or social-publishing providers turned into governed events and finite tasks for the owning lead."
+ ],
+ "canonical": "https://coreyjames.ai/systems/agentos/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/agentos"
+}

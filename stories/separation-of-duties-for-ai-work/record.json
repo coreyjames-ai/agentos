@@ -1,0 +1,44 @@
+{
+ "url": "https://coreyjames.ai/stories/separation-of-duties-for-ai-work/",
+ "kind": "story",
+ "title": "Separation of duties for AI work",
+ "subtitle": "Independent gatekeepers, reviewers from a different vendor, and failures that stay failures",
+ "systems": [
+  "agentos",
+  "agent-swarm"
+ ],
+ "technologies": [
+  "PostgreSQL",
+  "JSON Schema",
+  "Frontier coding models",
+  "Model Context Protocol (MCP)",
+  "Separation-of-duties review design"
+ ],
+ "stats": [
+  {
+   "value": "27",
+   "label": "gates audited in the eighth phase of the swarm build"
+  },
+  {
+   "value": "2",
+   "label": "failed gates kept as failures, not narrowed away"
+  },
+  {
+   "value": "1",
+   "label": "unrelated gate dropped by explicit decision"
+  }
+ ],
+ "lede": "AI reviewers have two failure modes. Left alone they re-litigate forever. Drawn from the same model as the builder they share its blind spots and pass its mistakes. I applied the principle regulated industries use: the people who build do not judge, the judges are independent, and a failure stays a failure until it is fixed. In my system the builders, the quality reviewers, the gatekeeper and the adversarial reviewer are separate agents, the reviewers run on a different vendor's models from the builders, and a phase with two failed gates is held at a conditional pass with two failures. Agent teams report success. They are built to complete tasks and they complete the task of saying so.",
+ "quote": "Adding a role would have let builders stop testing.",
+ "evidence": [
+  "Separation of duties for AI work: builders, quality reviewers, a gatekeeper and an adversarial reviewer as separate agents, with the reviewers on a different vendor's models from the builders.",
+  "Evidence-gated acceptance: a phase audited against 27 gates held at a conditional pass, its 2 failed gates kept as failures and 1 unrelated gate dropped by explicit decision rather than by narrowing the criteria.",
+  "Multi-agent governance: follow-up review scoped to the findings it was opened for so AI review converges, and a FAIL stays a FAIL until the fix is delivered and re-reviewed.",
+  "Quality engineering for AI-produced work: checksums scrubbed from reviewer packets so reviewers reasoned about delivered content, and testing kept a developer activity that produces evidence rather than a new role."
+ ],
+ "problem": "governed-agents",
+ "canonical": "https://coreyjames.ai/stories/separation-of-duties-for-ai-work/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/agentos/tree/main/stories/separation-of-duties-for-ai-work"
+}

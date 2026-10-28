@@ -1,0 +1,48 @@
+{
+ "url": "https://coreyjames.ai/stories/what-the-work-cost/",
+ "kind": "story",
+ "title": "What the work cost, to the penny",
+ "subtitle": "One real engineering program, attributed to the penny, and a cache discipline that returned four-fifths of the bill",
+ "systems": [
+  "agentos",
+  "fafohive"
+ ],
+ "technologies": [
+  "Cost attribution for AI work",
+  "PostgreSQL",
+  "Budget enforcement and cost governance",
+  "Context engineering and persistent agent memory"
+ ],
+ "stats": [
+  {
+   "value": "11,193",
+   "label": "priced model calls, each tied to its task"
+  },
+  {
+   "value": "3.197 B",
+   "label": "tokens attributed across the arc"
+  },
+  {
+   "value": "94.5%",
+   "label": "overall cache hit rate"
+  },
+  {
+   "value": "36,515",
+   "label": "governed state transitions along the way"
+  }
+ ],
+ "lede": "Most platforms report a vendor invoice. I wanted to know what the work cost: every model call priced, tied to the task that made it, rolled up by phase and by model, with the cache's contribution counted. I have that answer for one real delivery arc under my governance platform, down to about five and a half cents per governed step. In AgentOS every model call is metered against the work order and task that made it, so cost attaches to the work rather than to a month. Budgets are part of the contract: a work order carries a spend ceiling, and exhausting it stops the work.",
+ "quote": "A model that remembers beats a model that recalls, and it costs less too.",
+ "evidence": [
+  "Cost attribution for AI work: 11,193 priced model calls tied to the tasks that made them, 3.197 B tokens attributed across one delivery arc, about five and a half cents per governed step.",
+  "LLM cost optimisation with prompt caching: a 94.5% overall cache hit rate from stable rendered prefixes and reused grounding, returning four-fifths of the bill.",
+  "Budget enforcement for AI agents: a spend ceiling on every work order that stops the work when exhausted, with model and reasoning effort named per role as data.",
+  "Code intelligence economics: asking the code graph cost about 5,100 tokens per code question against 29,100 for manual exploration, across 536 recorded searches.",
+  "Memory for AI agents: 289,304 stored observations recalled 452,834 times instead of being rediscovered, along 36,515 governed state transitions."
+ ],
+ "problem": "governed-agents",
+ "canonical": "https://coreyjames.ai/stories/what-the-work-cost/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/agentos/tree/main/stories/what-the-work-cost"
+}
